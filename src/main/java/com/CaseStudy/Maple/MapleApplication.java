@@ -8,6 +8,8 @@ public class MapleApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(MapleApplication.class, args);
+
+		System.out.println("Hello World");
 	}
 
 

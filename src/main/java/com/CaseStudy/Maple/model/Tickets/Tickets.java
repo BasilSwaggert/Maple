@@ -14,14 +14,14 @@ public class Tickets {
     private String updatedAt;
     private String completedAt;
     private String settingID;
-    private int login_loginID;
+    private int loginID;
 
     @Override
     public String toString() {
         return "Tickets [ticketID = " + ticketID + ", subject = " + subject + ", content = " + content + ", statusID = " + statusID +
                 ", priorityID = " + priorityID + ", userID = " + userID + ", agentID = " + agentID + ", categoryID = " + categoryID +
                 ", createdAt = " + createdAt + ", updatedAt = " + updatedAt + ", completedAt = " + completedAt + ", settingID = " +
-                settingID + ", login_loginID = " + login_loginID + "]";
+                settingID + ", login_loginID = " + loginID + "]";
     }
 
     public int getTicketID() {
@@ -120,11 +120,11 @@ public class Tickets {
         this.settingID = settingID;
     }
 
-    public int getLogin_loginID() {
-        return login_loginID;
+    public int getLoginID() {
+        return loginID;
     }
 
-    public void setLogin_loginID(int login_loginID) {
-        this.login_loginID = login_loginID;
+    public void setLoginID(int loginID) {
+        this.loginID = loginID;
     }
 }
